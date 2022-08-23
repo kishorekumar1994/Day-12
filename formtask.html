@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    .checked {
+    color: orange;
+  }
+
+  table,th,td{
+            border: 5px rgb(204, 9, 9);
+            border-collapse: initial;
+            border-width: 20px;
+        }
+
+        .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 650px;
+  margin: auto;
+  text-align: left;
+  line-height:25px;
+        }
+        tr{
+            text-align: center;
+        }
+      
+</style>
+<body>
+    <div class="card">
+    <form style="border-width:3px; border-style:solid; border-color:black; padding: 1em;" >
+        <label for="First Name"><b>Name *</b></label><br>
+
+        <input type="text" name="" id="First Name">
+        <input type="text" name="" id="Last Name"><br>
+
+        <label for="First Name">First  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</label>
+        <label for="Last Name">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Last</label><br>
+
+        <label for="email">Email*</label><br>
+        <input type="email" name="" id="email"><br>
+
+        <label for="Experience">Your Experience*</label><br>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span><br>
+
+        <span>Overall,How would you rate your experience with us *</span><br>
+        <span><b> How satisfied are you with?</b></span><br>
+
+        <table  >
+            <head>
+                <th></th>
+                <th>Very unsatisfied</th>
+                <th>Unsatisfied</th>
+                <th>Neutral</th>
+                <th>Satisfied</th>
+                <th>Very Satisfied</th>
+            </head>
+            <tr style="background-color:silver;">
+                <td style="text-align: left;">Purchase</td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very Unsatisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Unsatisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Neutral" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="satisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very satisfied" /></td>
+            </tr>
+            <tr>
+                <td style="text-align: left ;">Service</td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very Unsatisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Unsatisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Neutral" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="satisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very satisfied" /></td>
+            </tr>
+            <tr style="background-color:silver;">
+                <td >Company Overall</td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very Unsatisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Unsatisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Neutral" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="satisfied" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very satisfied" /></td>
+            </tr>
+        </table>
+        <span><b>How likely are you to *</b></span><br>
+        <table>
+            <head>
+                <th></th>
+                <th>Very Unlikely</th>
+                <th>Unlikely</th>
+                <th>Neutral</th>
+                <th>likely</th>
+                <th>Very likely</th>
+            </head>
+            <tr style="background-color:silver;">
+                <td style="text-align: left ;">Buy from us again</td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very Unlikely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Unlikely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Neutral" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="likely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very likely" /></td>
+            </tr>
+            <tr>
+                <td style="text-align: left ;">Recommend our product to others</td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very Unlikely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Unlikely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Neutral" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="likely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very likely" /></td>
+            </tr>
+            <tr style="background-color:silver;">
+                <td >Recommend our company to others</td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very Unlikely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Unlikely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Neutral" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="likely" /></td>
+                <td><input type="radio" name="radQ3" value="" id="" 
+                    title="Very likely" /></td>
+            </tr>
+        </table>
+
+        <label for="comments"><b>Additional comments or suggestions</b></label><br>
+      <textarea name="comments" id="" cols="75" rows="08"></textarea><br>
+
+
+        
+        <button type="button">Submit</button>
+
+    </form>
+</div>
+</body>
+
+</html>
